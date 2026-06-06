@@ -536,6 +536,7 @@ const caseStudies = [
     icon: "🔧",
     bg: "linear-gradient(135deg, #0A0A5A 0%, #000000 100%)",
     pattern: "radial-gradient(circle at 30% 40%, rgba(232,240,0,0.08) 0%, transparent 60%)",
+    href: "https://coaching-service-site.netlify.app/",
   },
   {
     id: 2,
@@ -724,12 +725,14 @@ export default function App() {
           {caseStudies.map((c) => (
             <a
               key={c.id}
-              href="/coming-soon.html"
+              href={c.href || "/coming-soon.html"}
               className="case-card"
               onClick={(e) => {
-                e.preventDefault();
-                alert("🚧 Coming Soon — This project is currently in progress.");
-              }}
+                 if (!c.href) {
+                   e.preventDefault();
+                   alert("🚧 Coming Soon — This project is currently in progress.");
+                 }
+               }}
             >
               <div
                 className="case-card-bg"
