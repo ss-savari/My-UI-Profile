@@ -546,6 +546,7 @@ const caseStudies = [
     icon: "🃏",
     bg: "linear-gradient(135deg, #05051A 0%, #0A0A5A 100%)",
     pattern: "radial-gradient(circle at 70% 60%, rgba(232,240,0,0.1) 0%, transparent 60%)",
+    href: "https://memory-game-4.netlify.app/",
   },
   {
     id: 3,
