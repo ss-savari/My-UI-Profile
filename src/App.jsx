@@ -556,6 +556,7 @@ const caseStudies = [
     icon: "🛍️",
     bg: "linear-gradient(135deg, #000000 0%, #0A0A5A 100%)",
     pattern: "radial-gradient(circle at 20% 70%, rgba(128,128,128,0.15) 0%, transparent 60%)",
+    href: "https://batchnbowl.netlify.app/",
   },
   {
     id: 4,
