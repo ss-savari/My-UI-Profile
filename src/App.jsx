@@ -566,6 +566,7 @@ const caseStudies = [
     icon: "📊",
     bg: "linear-gradient(135deg, #0A0A5A 0%, #05051A 100%)",
     pattern: "radial-gradient(circle at 60% 30%, rgba(232,240,0,0.07) 0%, transparent 60%)",
+    href: "https://dashboard123456789.netlify.app/"
   },
 ];
 
